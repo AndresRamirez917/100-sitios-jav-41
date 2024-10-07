@@ -1,0 +1,37 @@
+#mainheader .navbar .logo {
+  float: none;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 30%;
+}
+#mainheader .navbar ul {
+  float: none;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#mainheader .navbar ul li {
+  float: none;
+  display: inline-block;
+}
+
+#showcase p {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+#service .box {
+  display: block;
+}
+#service .box p {
+  width: 100%;
+}
+#service .box .formulario {
+  width: 60%;
+  margin: 0 auto;
+}
+#service .box .formulario form {
+  border-radius: 10px;
+}/*# sourceMappingURL=mobile.css.map */

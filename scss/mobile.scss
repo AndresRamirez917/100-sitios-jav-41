@@ -1,0 +1,56 @@
+#mainheader {
+
+    .navbar {
+
+        .logo {
+            float: none;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 2em;
+            width: 30%;
+        }
+
+        ul {
+            float: none;
+            text-align: center;
+            margin-bottom: 2em;
+
+            li {
+                float: none;
+                display: inline-block;
+            }
+        }
+    }
+    
+}
+
+#showcase {
+
+    p {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2em;
+    }
+}
+
+
+#service {
+
+    .box {
+            display: block;
+
+            p {
+                width: 100%;
+            }
+
+            .formulario {
+                width: 60%;
+                margin: 0 auto;
+
+                form {
+                    border-radius: 10px;
+                }
+            }
+    }
+}
