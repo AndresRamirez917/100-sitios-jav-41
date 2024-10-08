@@ -12,11 +12,11 @@ async function getData() {
             if(element.id == i){
                 const card = document.createRange().createContextualFragment(`
                     
-                div class="card">
+                <div class="card">
                     <img src="${productsArr[randomIndex][5][1]}" alt="">
                     <div class="card-text">
-                        <h2>nombre</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quis recusandae dolor. Dolorum dolorem molestias et voluptas quaerat ea ut sit consequatur natus nemo ipsa atque commodi esse excepturi, magni quibusdam laboriosam soluta laudantium alias omnis sapiente quae ab consectetur similique? Cupiditate libero accusamus nobis eum. Corrupti odio labore itaque.</p>
+                        <h2>${productsArr[randomIndex][1][1]}</h2>
+                        <p>${productsArr[randomIndex][3][1]}</p>
                     </div>
                 </div>
                     
