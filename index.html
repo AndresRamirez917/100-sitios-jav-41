@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/scss/styles.css">
     <link rel="stylesheet" media="screen and (max-width:1000px)" href="/scss/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <title>PINK FOX | Welcome</title>
 </head>
 <body>
@@ -27,6 +30,21 @@
         </section>
     </header>
 
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="products-flex flex">
+                <div class="card">
+                    <img src="" alt="">
+                    <div class="card-text">
+                        <h2>nombre</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quis recusandae dolor. Dolorum dolorem molestias et voluptas quaerat ea ut sit consequatur natus nemo ipsa atque commodi esse excepturi, magni quibusdam laboriosam soluta laudantium alias omnis sapiente quae ab consectetur similique? Cupiditate libero accusamus nobis eum. Corrupti odio labore itaque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="service">
         <div class="container">
                 <div class="box box-1">
@@ -39,17 +57,17 @@
                             <form action="">
                                 <div class="form-group">
                                     <label for="">Nombre</label>
-                                    <input type="text" class="form-control">
+                                    <input id="nombre" type="text" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label for="">Email</label>
-                                    <input type="text" class="form-control">
+                                    <input id="email" type="text" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label for="">Mensaje</label>
-                                    <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                                    <textarea name="" id="mensaje" cols="30" rows="10" class="form-control"></textarea>
                                 </div>
-                                <button class="btn button-1">submit</button>
+                                <button id="btn-validar" class="btn button-1">submit</button>
                             </form>
                         </div>   
             </div>
@@ -59,6 +77,6 @@
         </footer>
     </section>
     
-  
+  <script src="js/index.js"></script>
 </body>
 </html>
